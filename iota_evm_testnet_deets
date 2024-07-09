@@ -1,0 +1,8 @@
+protocol: ISC / EVM
+Chain ID: 1075
+RPC URL: https://json-rpc.evm.testnet.iotaledger.net
+Explorer: https://explorer.evm.testnet.iotaledger.net
+Toolkit & Faucet: https://evm-toolkit.evm.testnet.iotaledger.net
+
+
+deployment address: 0xEd5eEAe046E6792c3CA32731f56E146256876c48
