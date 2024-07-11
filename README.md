@@ -36,6 +36,10 @@ Let's go over the key features of BLITZ:
 * ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)
 * [![Hardhat - v2.22.6](https://img.shields.io/static/v1?label=Hardhat&message=v2.22.6&color=2ea44f)](https://)
 
+## Pinout Diagram
+<img src="https://github.com/SiddharthVikram068/embedded-blockchain/blob/main/assets/pin_diagram.jpeg" alt="diagram">
+
+
 ## Working code 
 
 Street_lights.sol: smart contract to register street lights and collectors. Also emit events of tampering and malfunctions
