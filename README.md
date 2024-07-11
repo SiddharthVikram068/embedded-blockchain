@@ -29,6 +29,12 @@ Let's go over the key features of BLITZ:
 - <b>Efficient Resource Management:</b> With BLITZ's real-time monitoring, city authorities can optimize maintenance schedules and resource allocation, leading to significant cost savings and enhanced operational efficiency.
 - <b>Scalability and Flexibility:</b> Built on the Hardhat framework, BLITZ is designed to be highly scalable and adaptable to various urban environments and transition to smart cities.
 
+### Built With
+* ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) <br>
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) <br>
+* ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+* ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)
+* [![Hardhat - v2.22.6](https://img.shields.io/static/v1?label=Hardhat&message=v2.22.6&color=2ea44f)](https://)
 
 ## Working code 
 
