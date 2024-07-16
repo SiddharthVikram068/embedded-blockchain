@@ -53,7 +53,7 @@ Let's go over the key features of BLITZ:
 | n             | solar panel (+ve end) |
 
 
-| BJT | pinout conn.    |
+| BJT(BC547) | pinout    |
 |-----|-----------------|
 | E   | P side of diode |
 |     | battery cathode |
