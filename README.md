@@ -195,6 +195,16 @@ subscribe();
 <a href="https://drive.google.com/file/d/17p-dYKclmAzHXnFaCaOW8So1UXp6Af2V/view?usp=sharing"> Video </a>
 
 
+## Future Extensions
+
+* Implementing the blockchain for other systems besides street lights
+* Making the smart contracts more secure with cleaner and more structured code
+* Implementing a better user Interface for the collector nodes for officials to work upon and do data collection
+* Panel tracking according to the direction of the sunlight
+* Making an application specific blockchain for faster and more smoother functionality
+
+
+
 [healthy-badge]: https://img.shields.io/badge/OSS%20Status-Healthy-darkgreen.svg
 [healthy-markdown]: https://github.com/martinpeck/oss-project-status/blob/master/healthy/OSS_STATUS.md
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
