@@ -46,6 +46,35 @@ Let's go over the key features of BLITZ:
 ## Pinout Diagram
 <img src="https://github.com/SiddharthVikram068/embedded-blockchain/blob/main/assets/pin_diagram.jpeg" alt="diagram">
 
+## Pinout table 
+| Diode(1N4007) | pinout                |
+|---------------|-----------------------|
+| p             | emitter of BC547      |
+| n             | solar panel (+ve end) |
+
+
+| BJT | pinout conn.    |
+|-----|-----------------|
+| E   | P side of diode |
+|     | battery cathode |
+| B   | 1k resistor     |
+| C   | Light (-ve end) |
+
+
+| LDR module | Pin Number (Raspberry pi 3B) |
+|------------|------------------------------|
+| Vcc        | pin 4                        |
+| GND        | pin 9                        |
+| DO         | GPIO 4 (pin 7)               |
+
+
+| Vibration sensor (SW-420) | Pin Number (Raspberry pi 3B) |
+|---------------------------|------------------------------|
+| Vcc                       | pin 2                        |
+| GND                       | pin 6                        |
+| DO                        | GPIO 17 (pin 11)             |
+
+
 
 ## Working code 
 
