@@ -92,7 +92,9 @@ contract StreetLightMonitoring {
     }
 }
 ```
+## Video demo
 
+<a href="https://drive.google.com/file/d/17p-dYKclmAzHXnFaCaOW8So1UXp6Af2V/view?usp=sharing"> Video </a>
 
 
 [healthy-badge]: https://img.shields.io/badge/OSS%20Status-Healthy-darkgreen.svg
