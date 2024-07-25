@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Typewriter from "typewriter-effect";
 import Web3 from "web3";
 
@@ -8,6 +8,8 @@ const web3 = new Web3("https://rpc-amoy.polygon.technology/");
 const address = '0xEd5eEAe046E6792c3CA32731f56E146256876c48';
 
 const Page_tampering = () => {
+  const [eventData, setEventData] = useState([null]);
+
   const listen = async () => {
     const contract = new web3.eth.Contract(abi, address);
     const subscription = await contract.events.LightTampering({
@@ -19,6 +21,7 @@ const Page_tampering = () => {
 
     subscription.on('data', function(event){
         console.log(event); // same results as the optional callback above
+        setEventData(event.event + " " + event.address);
     });
   }
   return (
@@ -49,6 +52,9 @@ const Page_tampering = () => {
           <button type="button" onClick={listen} className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none`}>
             Get Tampering Events
           </button>
+        </div>
+        <div>
+            {JSON.stringify(eventData)}
         </div>
       </div>
     </div>
