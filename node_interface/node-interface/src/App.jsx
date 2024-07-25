@@ -26,7 +26,7 @@ const App = () => {
       </div>
 
       
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} pb-20`}>
         <div className={`${styles.boxWidth}`}>
           <div className="flex justify-evenly mt-20">
             <Malfunction />
