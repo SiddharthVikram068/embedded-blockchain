@@ -35,6 +35,10 @@ Let's go over the key features of BLITZ:
 * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 * ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)
 * [![Hardhat - v2.22.6](https://img.shields.io/static/v1?label=Hardhat&message=v2.22.6&color=2ea44f)](https://)
+* ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+* ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+* ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 ### Hardware dependencies
 * Vibration sensor module
@@ -128,7 +132,7 @@ contract StreetLightMonitoring {
     }
 }
 ```
-
+Code to detect events in the raspberry pi
 ```python
 
 import RPi.GPIO as GPIO
@@ -163,6 +167,7 @@ except KeyboardInterrupt:
     GPIO.cleanup()
 ```
 
+Code to get contract events, react project offers a clickable way to do this 
 ```javascript
 const { Web3 }= require('web3');
 
@@ -198,6 +203,7 @@ subscribe();
 ## Future Extensions
 
 * Implementing the blockchain for other systems besides street lights
+* Implementing smart contract accounts i.e. ERC 4337
 * Making the smart contracts more secure with cleaner and more structured code
 * Implementing a better user Interface for the collector nodes for officials to work upon and do data collection
 * Panel tracking according to the direction of the sunlight
